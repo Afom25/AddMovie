@@ -7,26 +7,21 @@ export const MovieProvider = (props) => {
     const [movies,setMovies] = useState([
         {
             name : 'ወዲ ሹቅ 5',
-            price: ' 10',
+            price: ' 40',
             id:23124
         },
         {
             name: 'ካምብያ',
-            price:'20',
-            id:23345
+            price:'30',
+            id:23344
             
         },
         {
             name: 'ጆርጆ',
-            price:'20',
+            price:'25',
             id:23345
         },
-        {
-            name: 'ሻሎም',
-            price:'20',
-            id:23345
-
-        }
+       
     ]);
 
 

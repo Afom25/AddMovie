@@ -22,8 +22,8 @@ const AddMovie = () => {
     return (
         <div className='container text-center'>
             <form onSubmit ={addMovie}>
-            <input type='text' name='name'value={name} onChange={updateName}/>
-            <input type= 'text' name='price' value={price} onChange={updatePrice}/>
+            <input type='text' name='name'value={name} onChange={updateName}/><br></br>
+            <input type= 'text' name='price' value={price} onChange={updatePrice}/><br></br>
             <button >Submit</button>
         </form>
         </div>
